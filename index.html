@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio Vinachi</title>
+    <!-- DATA SEO -->
+    <meta name="copyright" content="Perfil - Julio Vinachi" />
+    <meta name="title" content="Resumen de Perfil Julio Vinachi" />
+    <meta name="description" content="Web Developer Full-Stack / Profile Julio vinachi" />
+    <meta name="keywords" content="Profile Julio Vinachi, POO, php, CodeIgniter, Laravel ,Symfony , Angular, VueJs, TypeScript, Git, Linux, AWS, S3, VPS, EC2, LXD" />
+    <link rel="canonical" href="http://julio899.github.io/perfil/" />    
+    <meta name="image_src" content="https://julio899.github.io/2019/img/preview.png" />
+    <meta name="image_url" content="https://julio899.github.io/2019/img/preview.png" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:title" content="Resumen de Perfil Julio Vinachi 2019"/>
+    <meta property="og:description" content="Web Developer Full-Stack / Profile Julio vinachi"/>
+    <meta property="og:url" content="https://julio899.github.io/2019/" />
+    <meta property="og:type" content="article" />
+
+    <meta property="og:image" content="https://julio899.github.io/2019/img/preview.png" />
+    <meta property="og:image:secure_url" content="https://julio899.github.io/2019/img/preview.png" />
+    <meta property="og:site_name" content="Profile summary Julio Vinachi" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta property="article:tag" content="Full-Stack" />
+    <meta property="article:tag" content="WEB DEVELOPER" />
+    <meta property="article:tag" content="Angular" />
+    <meta property="article:tag" content="Ionic" />
+    <meta property="article:tag" content="Symfony" />
+    <meta property="article:tag" content="Javascript" />
+    <meta property="article:tag" content="TypeScript" />
+    <meta property="article:tag" content="VueJs" />
+    <meta property="article:tag" content="PHP" />
+    <meta property="article:tag" content="POO" />
+    <meta property="article:tag" content="LINUX" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Resumen de Perfil Julio Vinachi" />
+    <meta name="twitter:site" content=" @julio899" />
+    <meta name="twitter:description" content="Web Developer Full-Stack" />        
+    <meta name="twitter:image" content="https://julio899.github.io/2019/img/preview.png" />
+    <link rel="image_src" href="https://julio899.github.io/2019/img/preview.png"  />
+    <!-- Closed DATA SEO-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+</head>
+<body>
+  <div id="particulas" style="width:100%;height: 2340px;margin-top: -5em;"></div>
+  
+  <div class="container btns">
+
+    <a href="#" id="toPerfil" class="button blue animate__animated animate__pulse animate__repeat-3">
+      <strong class="autor">Julio Cesar Vinachi</strong>  
+      <strong class="title">Desarrollador Web Full-Stack</strong>
+      <span class="details">
+        Creativo, Apasionado y Auto-didacta
+      </span>
+      <span class="price">
+        <strong></strong>
+      </span>
+    </a>
+
+    <a href="#" onclick="toCV()" class="button green animate__animated animate__backInRight">
+      <strong class="title">Descarga mi curriculum</strong>
+      <span class="details">
+          Ultima <i class="icon-time"></i> actualizaci&oacute;n:
+        <strong>Jun 01, 2020</strong>
+      </span>
+      <span class="price">
+        PDF <strong>&rsaquo;</strong>
+      </span>
+    </a>
+
+    <div class="row redes">
+      <a href="#" onclick="btnEfect('linkedin','http\:\/\/linkedin.com/in/julio899/')" class="button linkedin green animate__animated animate__rollIn animate__delay-1s animate__slow" >
+        <span class="price" style="width: 97%;font-size: 1em;height: 100%;">
+          <strong style="width: 100%;line-height: normal;background-color: #0077B5;color: #fff;">LinkedIn</strong>
+        </span>
+      </a>
+      <a href="#" onclick="btnEfect('github','https\:\/\/github.com/julio899')" class="button github green animate__animated animate__rollIn animate__delay-1s animate__slow" >
+        <span class="price" style="width: 97%;font-size: 1em;height: 100%;">
+          <strong style="width: 100%;line-height: normal;background-color: #24292E;color: #fff;">GitHub</strong>
+        </span>
+      </a>
+      <a href="#" onclick="btnEfect('codersrank','https\:\/\/profile.codersrank.io/user/julio899')" class="button codersrank green animate__animated animate__rollIn animate__delay-1s animate__slow" >
+        <span class="price" style="width: 97%;font-size: 1em;height: 100%;">
+          <strong style="width: 100%;line-height: normal;background-color: #67A4AC;color: #fff;">CodersRank</strong>
+        </span>
+      </a>
+      <a onclick="btnEfect('stackoverflow','https\:\/\/stackoverflow.com/users/4929137/julio-vinachi')" href="#" class="button stackoverflow green animate__animated animate__rollIn animate__delay-1s animate__slow" >
+        <span class="price" style="width: 97%;font-size: 1em;height: 100%;">
+          <strong style="width: 100%;line-height: normal;background-color: #F48024;color: #fff;">StackOverflow</strong>
+        </span>
+      </a>
+      
+    </div>
+    
+  </div>
+
+<script src="js/particles.min.js"></script>
+<script>
+
+	particlesJS.load('particulas', 'js/particlesjs-config.json', function() {
+	  console.log('config particulas loaded');
+	});
+
+  document.getElementById('toPerfil').addEventListener('click',(evt)=>{
+    // Perfil
+		window.open('https://julio899.github.io/perfil/','_blank');
+  });
+
+  function toCV()
+	{
+		window.open('https://julio899.github.io/2019/docs/JulioVinachiCV.pdf','_blank');
+	}
+  
+  function btnEfect(btnClassName,link)
+  {
+    document.getElementsByClassName('button '+btnClassName)[0].classList.remove('animate__animated','animate__hinge','animate__rollIn','animate__delay-1s','animate__slow','animate__animated');
+    document.getElementsByClassName('button '+btnClassName)[0].classList.add('animate__animated','animate__hinge');
+    setTimeout(function(){
+      window.open(link,'_blank');
+      document.getElementsByClassName('button '+btnClassName)[0].classList.remove('animate__animated','animate__hinge','animate__rollIn','animate__delay-1s','animate__slow','animate__animated');
+    },2500);
+  }
+</script>
+</body>
+</html>
